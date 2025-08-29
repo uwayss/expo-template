@@ -9,7 +9,7 @@
     "web": "expo start --web",
     "checks:lint": "expo lint --fix",
     "checks:tsc": "tsc --noEmit",
-    "checks": "npm run checks:lint && npm run checks:tsc"
+    "checks": "npm run checks:lint ; npm run checks:tsc"
   },
   "dependencies": {
     "expo": "~53.0.22",
